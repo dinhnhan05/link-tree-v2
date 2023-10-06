@@ -82,6 +82,11 @@ body {
   position: absolute;
   padding: 5px 10px;
   cursor: pointer;
+  transition: transform 0.3s;
+}
+
+.menu-btn.active {
+  transform: rotate(45deg);
 }
 
 .menu-btn i {
@@ -175,6 +180,29 @@ body {
     margin: 10px 0;
     position: relative;
     top: -1.2em;
+}
+
+@keyframes rainbow {
+  0% {
+    
+    color: red;
+  }
+  25% {
+    
+    color: green;
+  }
+  50% {
+    
+    color: blue;
+  }
+  75% {
+    
+    color: yellow;
+  }
+  100% {
+    
+    color: red;
+  }
 }
 
 .hr-text {
