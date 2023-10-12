@@ -291,7 +291,7 @@ body.dark {
 	margin: 10px 0;
 	background: var(--bg-social-link);
 	text-decoration: none;
-	transition: all 0.3s ease-in-out;
+	transition: background 0.3s ease-in-out, transform 0.3s ease-in-out;
 	border: 1px solid var(--border-social-link);
 	border-radius: 12px;
 	padding: 5.5px;
