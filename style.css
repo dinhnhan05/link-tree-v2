@@ -303,10 +303,10 @@ body.dark {
 
 .social-link:hover {
 	border-color: var(--border-social-link-hover);
-	/*background: url('https://i.imgur.com/4QOKcZi.png');
+	background: url('https://i.imgur.com/4QOKcZi.png');
 	background-size: cover;
 	background-position: center;
-	background-color: var(--background-social-link-hover);*/
+	background-color: var(--background-social-link-hover);
 	transform: translateY(-5px);
 	/*transform: scale(1.1);*/
 }
